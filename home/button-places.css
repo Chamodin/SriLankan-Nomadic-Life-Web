@@ -1,0 +1,32 @@
+.placeul {
+    list-style: none; 
+    padding: 20px;
+    margin: 20px;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 10px; 
+}
+
+.placeul li {
+    text-align: center; 
+}
+
+.placeul li a {
+    display: block; 
+    text-decoration: none; 
+}
+
+.placeul li button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #172e46;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.placeul li button:hover {
+    background-color: #0056b3; 
+}
